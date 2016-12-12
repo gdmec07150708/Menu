@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv1=(TextView) findViewById(R.id.textView);
-        registerForContextMenu(tv1);
+        registerForContextMenu(tv1);   
     }
 //创建选项菜单
     @Override
